@@ -20,7 +20,9 @@ Header
 */
 .header {
   width: 100%;
-  justify-content: center;
+  border-bottom: 1px solid #e8edf1;
+
+  /* justify-content: center; */
 }
 .top-menu {
   height: 42px;
@@ -43,4 +45,29 @@ Header
 }
 .top-menu-icons i {
   padding: 0 0.3rem;
+}
+/* 
+==========
+Navbar
+==========
+*/
+.navbar {
+  height: 80px;
+  text-align: center;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 1px solid #e8edf1;
+}
+/* hide at 991px */
+.navbar ul {
+  display: flex;
+}
+.navbar ul > li {
+  padding: 0 2rem;
+}
+.navbar ul > li:last-child {
+  padding-right: 0;
 }

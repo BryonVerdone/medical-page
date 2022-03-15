@@ -1,3 +1,7 @@
+:root {
+  --main-blue: #0051d2;
+}
+
 * {
   margin: 0;
   box-sizing: border-box;
@@ -70,4 +74,10 @@ Navbar
 }
 .navbar ul > li:last-child {
   padding-right: 0;
+}
+/* show at 991px */
+.mobile-btn {
+  padding: 0;
+  font-size: 2rem;
+  color: var(--main-blue);
 }

@@ -3,3 +3,44 @@
   box-sizing: border-box;
   padding: 0;
 }
+
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+.container {
+  max-width: 1170px;
+}
+/* 
+==========
+Header
+==========
+*/
+.header {
+  width: 100%;
+  justify-content: center;
+}
+.top-menu {
+  height: 42px;
+  /* border-bottom: 1px solid #e8edf1; */
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-menu-left {
+  float: left;
+}
+.top-menu-left span {
+  padding: 0 0.5rem;
+}
+.top-menu-icons {
+  float: right;
+}
+.top-menu-icons i {
+  padding: 0 0.3rem;
+}

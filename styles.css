@@ -126,10 +126,10 @@ Hero section
   width: 100%;
 } */
 article {
-  display: flex;
-  flex-wrap: wrap;
 }
 .hero-content {
+  display: flex;
+  flex-wrap: wrap;
   max-width: 41.666667%;
   margin-left: 5rem;
   flex: 41.6666%;
@@ -164,7 +164,7 @@ article {
   background: transparent;
   padding: 0 18px;
   line-height: 48px;
-  border: 2px solid var(--main-blue);
+  border: 1px solid var(--main-blue);
   transition: var(--transition);
 }
 .main-btn-lite:hover {

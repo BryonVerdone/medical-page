@@ -1,5 +1,6 @@
 :root {
   --main-blue: #0051d2;
+  --transition: 800ms;
 }
 
 * {
@@ -103,6 +104,72 @@ Navbar
 }
 .mobile-nav ul {
   height: 15%;
+}
+/* 
+==========
+Hero section
+==========
+*/
+.hero-section {
+  /* width: 100%; */
+  min-height: 800px;
+  background-image: url(./images/medical-hero-img.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  /* padding-top: 1100px; */
+}
+/* .hero-img {
+  width: 100%;
+} */
+article {
+  display: flex;
+  flex-wrap: wrap;
+}
+.hero-content {
+  max-width: 41.666667%;
+  margin-left: 5rem;
+  flex: 41.6666%;
+}
+.hero-content h1 {
+  font-size: 45px;
+  line-height: 1.2;
+  margin-bottom: 30px;
+}
+.hero-content p {
+  width: 100%;
+  line-height: 27px;
+  margin-bottom: 50px;
+}
+/* add margin bottom on smaller screen size */
+.main-btn {
+  display: inline-block;
+  background: var(--main-blue);
+  color: white;
+  padding: 0 18px;
+  line-height: 48px;
+  margin-right: 4px;
+  transition: var(--transition);
+}
+.main-btn:hover {
+  color: black;
+  background: white;
+}
+.main-btn-lite {
+  display: inline-block;
+  color: black;
+  background: transparent;
+  padding: 0 18px;
+  line-height: 48px;
+  border: 2px solid var(--main-blue);
+  transition: var(--transition);
+}
+.main-btn-lite:hover {
+  color: white;
+  background: var(--main-blue);
 }
 /* 
 ==========

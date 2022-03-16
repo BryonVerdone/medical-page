@@ -29,7 +29,8 @@ Header
 .header {
   width: 100%;
   border-bottom: 1px solid #e8edf1;
-
+  position: fixed;
+  background: white;
   /* justify-content: center; */
 }
 /* hide at 767px */
@@ -95,10 +96,14 @@ Navbar
 .mobile-nav li {
   padding: 1rem 0;
 }
+/* need mobile nav to be even with navbar at 767px */
 .mobile-nav {
   padding: 0 15px;
+  height: 30%;
 }
-
+.mobile-nav ul {
+  height: 15%;
+}
 /* 
 ==========
 Media queries
@@ -144,4 +149,7 @@ Media queries
   .mobile-nav {
     display: none;
   }
+}
+.hero-img {
+  width: 100%;
 }

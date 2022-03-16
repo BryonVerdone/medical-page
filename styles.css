@@ -96,7 +96,7 @@ Navbar
   padding: 1rem 0;
 }
 .mobile-nav {
-  /* padding: 0 15px; */
+  padding: 0 15px;
 }
 
 /* 
@@ -112,5 +112,36 @@ Media queries
 @media screen and (max-width: 991px) {
   .mobile-btn {
     display: block;
+  }
+}
+.navbar ul {
+  display: flex;
+}
+@media screen and (max-width: 991px) {
+  .navbar ul {
+    display: none;
+  }
+  .container {
+    padding: 0 15px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .container {
+    max-width: 540px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .navbar {
+    padding: 0 15px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .mobile-nav {
+    display: none;
   }
 }

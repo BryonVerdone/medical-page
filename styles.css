@@ -125,8 +125,7 @@ Hero section
 /* .hero-img {
   width: 100%;
 } */
-article {
-}
+
 .hero-content {
   display: flex;
   flex-wrap: wrap;
@@ -177,6 +176,7 @@ Feature section
 ==========
 */
 .feature-section {
+  padding: 30px;
   background-image: url(./images/feature-section-img.webp);
 }
 .feature-cards {
